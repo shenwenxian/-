@@ -1,0 +1,153 @@
+
+
+*{
+margin: 0;
+padding: 0;
+}
+.lun{
+  width: 1300px;
+  height: 385px;
+  /* background-color: aqua; */
+}
+.lun div:nth-child(1){
+  width: 1000px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 25px;
+  font-weight: bold;
+  margin: 5px auto ;
+  text-indent: 25px;
+}
+.lun ul{
+  width: 1000px;
+  height: 290px;
+  margin: 0 auto;
+  list-style: none;
+}
+.lun ul li{
+  width: 222px;
+  height: 290px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  margin-left: 25px;
+  position: relative;
+}
+ .lun ul li img{
+  width: 220px;
+  height: 130px;
+}
+.biaoti{
+  font-size: 17px;
+  font-weight: 700;
+  text-align: center;
+
+}
+.jiage{
+  display: inline-block;
+  
+  border: 1px solid red ;
+  padding: 2px;
+  border-radius: 4px;
+  margin: 5px 0 0 45px;
+}
+/* .shuliang{
+  border: 1px solid red ;
+  padding: 2px;
+  border-radius: 4px;
+} */
+.shenqing{
+  display: inline-block;
+  margin: 10px 0 0 75px;
+  color: red;
+}
+.shijian{
+  display: inline-block;
+  margin: 10px 0 0 70px;
+  color: red;
+  font-size: 14px;
+}
+/* 第二个li样式 */
+.jiage1{
+  display: inline-block;
+  
+  border: 1px solid green ;
+  padding: 2px;
+  border-radius: 4px;
+  margin: 5px 0 0 45px;
+}
+.shenqing1{
+  display: inline-block;
+  margin: 10px 0 0 75px;
+  color: green;
+}
+.shijian1{
+  display: inline-block;
+  margin: 10px 0 0 70px;
+  color: green;
+  font-size: 14px;
+}
+#shoufa{
+  display: inline-block;
+  width: 42px;
+  height: 23px;
+  font-size: 14px;
+  text-align: center;
+  line-height: 23px;
+  background-color: rgb(255, 62, 62);
+  color: white;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: 0 5px;
+}
+#shoufa1{
+  display: inline-block;
+  width: 85px;
+  height: 23px;
+  font-size: 14px;
+  text-align: center;
+  line-height: 23px;
+  background-color: rgb(253,246,200);
+  color: #ccc;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: 0 5px;
+}
+.remen{
+  width: 1000px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 25px;
+  font-weight: bold;
+  margin: 5px auto ;
+  text-indent: 25px;
+}
+#time{
+  margin-bottom: 20px;
+}
+/* 报告精选 */
+.baogao{
+  width: 1300px;
+  height: 600px;
+  margin-top: 20px;
+  background-color: rgb(247,247,247);
+}
+.baogao span:nth-child(1){
+  display: inline-block;
+  width: 100%;
+  height: 80px;
+  font-size: 25px;
+  text-indent: 150px;
+  line-height: 80px;
+}
+#baogaoul{
+  width: 1000px;
+  height: 600px;
+  margin: 0 auto;
+}
+.imgs{
+  width: 220px;
+  height: 130px;
+}

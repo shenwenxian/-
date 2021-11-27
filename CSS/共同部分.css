@@ -1,0 +1,283 @@
+/* 头部 */
+* {
+margin: 0;
+padding: 0;
+}
+
+body {
+margin: 0;
+padding: 0;
+}
+
+a {
+text-decoration: none;
+}
+
+ul {
+list-style: none;
+}
+
+.wrapper {
+width: 1000px;
+margin: 0 auto;
+}
+
+.hhh {
+border-bottom: 1px solid #cececf;
+box-shadow: 0 0 5px #cececf inset;
+}
+
+.header-top {
+height: 70px;
+}
+
+.header-top img {
+height: 50px;
+display: inline-block;
+vertical-align: middle;
+}
+
+.header-top ul {
+display: inline-block;
+height: 70px;
+line-height: 70px;
+}
+
+.header-top ul li {
+display: inline-block;
+margin-left: 50px;
+font-size: 18px;
+cursor: pointer;
+}
+
+.header-top ul .active {
+color: #fe5341;
+}
+
+.header-top ul li a {
+color: #6e6e6e;
+}
+
+.header-top ul li a:hover {
+color: #fe5341;
+}
+
+.header-top div {
+height: 70px;
+line-height: 70px;
+float: right;
+}
+
+.header-top div span {
+vertical-align: middle;
+}
+
+.header-top div .icon-sousuo1 {
+color: #505050;
+}
+
+.header-top div button {
+border: 1px solid red;
+color: red;
+height: 30px;
+width: 50px;
+border-radius: 5px;
+background-color: #fff;
+outline: none;
+}
+
+.header-top div button:hover {
+background-color: #fe5341;
+color: #fff;
+}
+.seek{
+transform: scale(0.5);
+}
+
+
+/* 尾部 */
+#copyright {
+  width: 100%;
+  height: 400px;
+  background-color: rgb(44, 43, 43);
+  overflow: hidden;
+}
+
+li {
+  list-style: none;
+}
+
+li:hover {
+  color: red;
+}
+
+#copyright_ {
+  margin-top: 100px;
+  /* line-height: 400px; */
+  float: left;
+}
+
+#copyright1 {
+  width: 80%;
+  color: gray;
+  height: 400px;
+  overflow: hidden;
+  margin: auto;
+  position: relative;
+}
+
+#copyright dl:nth-child(2) {
+  float: left;
+  margin: auto;
+  margin-top: 100px;
+  margin-left: 50px;
+}
+
+#copyright dl:nth-child(2)>li:nth-child(4) {
+  margin: 15px 0px 15px 0px;
+}
+
+#copyright dl:nth-child(2)>li:nth-child(2) {
+  margin-top: 28px;
+}
+
+#copyright dl:nth-child(3) {
+  margin-top: 100px;
+  margin-left: 28px;
+  float: left;
+}
+
+#copyright dl:nth-child(3)>li:nth-child(2) {
+  margin-top: 32px;
+}
+
+#copyright dl:nth-child(4) {
+  /* border: solid white; */
+  /* width: 170px; */
+  margin-top: 100px;
+  margin-left: 28px;
+  float: left;
+}
+
+#copyright dl:nth-child(4)>li:nth-child(2) {
+  margin-top: 32px;
+  width: 75px;
+  /* border: red solid; */
+  float: left;
+}
+
+#copyright dl:nth-child(5) {
+  margin-top: 157px;
+  margin-left: 10px;
+  float: left;
+}
+
+#copyright dl:nth-child(6) {
+  margin-top: 100px;
+  margin-left: 28px;
+  float: left;
+}
+
+#copyright dl:nth-child(6)>li:nth-child(2) {
+  margin-top: 32px;
+}
+
+#copyright dl:nth-child(7) {
+  margin-top: 100px;
+  margin-left: 28px;
+  float: left;
+}
+
+#copyright dl:nth-child(7)>li:nth-child(2) {
+  margin-top: 32px;
+}
+
+.logo img {
+  float: right;
+  position: absolute;
+  top: 370px;
+  right: 672px;
+  width: 23px;
+  height: 23px;
+  border-radius: 50%;
+  background-color: white;
+}
+.aa{
+  float: right;
+  position: absolute;
+  top: 370px;
+  right: 530px;
+}
+/* 倒计时界面 */
+#time{
+  width: 100%;
+  height: 300px;
+  background: url(../图片/css/img/original.jpg) no-repeat;
+  position: relative;
+  background-position: -276px 0;
+  
+}
+
+
+#time_1{
+  width: 410px;
+  height: 270px;
+  position: absolute;
+  top: 20px;
+  right: 15px;
+  animation: aa .5s;
+}
+@keyframes aa{
+  
+  0%{
+      transform: translate(300px,0);
+  }
+  25%{
+      transform: translate(-300px,400px);
+  }
+  50%{
+      transform: translate(-800px,0px);
+  }
+  75%{
+      transform: translate(-500px,-100px);
+  }
+  100%{
+      transform: translate(0,0);
+  }
+  
+}
+#time_1 div:nth-child(1){
+  font-size: 30px;
+  color: white;
+  margin: 10px;
+}
+#text{
+  margin: 20px 0 0 68px;
+}
+#text span{
+  font-size: 18px;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255,.3);
+}
+#time div:nth-child(3){
+  font-size: 16px;
+  color: white;
+  margin: 20px 0 0 40px;
+}
+#time_1 button{
+  width: 240px;
+  height: 50px;
+  font-size: 25px;
+  color: white;
+  text-align: center;
+  line-height: 50px;
+  border: 0 none;
+  /* 取消button默认边框 */
+  border-radius: 5px;
+  margin: 20px 0 0 40px;
+  background-color: rgb(254,83,65);
+}
+
+
